@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import About from '@/components/About'
-import Coins from '@/components/Coins.vue'
+import Inicio from '@/components/Inicio'
+import AcercaDe from '@/components/AcercaDe'
 
 Vue.use(Router)
 
@@ -10,18 +9,14 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      name: 'Inicio',
+      component: Inicio
     },
     {
-      path: '/about',
-      name: 'About',
-      component: About
+      path: '/acercade',
+      name: 'AcercaDe',
+      component: AcercaDe
     },
-    {
-      path: '/coins/:id',
-      name: 'Coins',
-      component: Coins
-    }
+    
   ]
 })

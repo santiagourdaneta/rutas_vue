@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'Hello',
+  name: 'Inicio',
   data () {
     return {
-      msg: 'Welcome to Crypto Info'
+      msg: 'Rutas Vue'
     }
   }
 }
